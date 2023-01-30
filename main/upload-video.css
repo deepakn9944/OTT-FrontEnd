@@ -1,0 +1,62 @@
+
+.popup{
+    position: relative;
+    padding-top: 100px;
+    width: 100%;
+    height: 100vh;
+    background:#0c111b;
+    display: flex;
+    justify-content: center;
+}
+
+.popup .form h1{
+    text-align: center;
+    color:#fff;
+    margin: 10px 0px 20px;
+    font-size: 40px;
+}
+
+.popup .form .form-element{
+    margin:15px 0px;
+}
+
+.popup .form .form-element img{
+   width: 300px;
+   margin-left: 25%;
+   margin-right: auto;
+}
+.popup .form .form-element label{
+    font-size: 24px;
+    color:#fff;
+}
+
+.popup .form .form-element input[type="text"],
+.popup .form .form-element textarea{
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.popup .form .form-element input[type="file"]{
+    display: none;
+    
+}
+
+.popup .form .form-element button{
+    width:100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    background-color: #4CAF50;
+    color:#fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.popup .form .form-element button:hover {
+  background-color: #45a049;
+}

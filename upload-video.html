@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTT</title>
+
+    <link rel="stylesheet" href="main/style.css" />
+    <link rel="stylesheet" href="main/upload-video.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="images/logo.png" class="brand-logo" alt="" />
+      <ul class="nav-links">
+        <li class="nav-items"><a href="index.html">Home</a></li>
+        <li class="nav-items"><a href="index.html">videos</a></li>
+        <li class="nav-items"><a href="#">Watchlist</a></li>
+        <li class="nav-items"><a href="wallet.html">wallet</a></li>
+        <li class="nav-items"><a href="upload-video.html">Upload Video</a></li>
+      </ul>
+
+      <div class="right-container">
+        <input type="text" class="search-box" placeholder="search" />
+        <a href="LoginAndSignUp.html" class="login-link">Login</a>
+      </div>
+    </nav>
+
+
+    <div class="popup">
+        <div class="form">
+            <h1>Videos</h1>
+            <div class="form-element">
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title">
+            </div>
+            <div class="form-element">
+                <label for="descp">Description</label>
+                <textarea id="descp" name="description" rows="5" cols="50"></textarea>
+            </div>
+            <div class="form-element">
+                <label for="vid"><img src="images/upload.png" alt=""></label>
+                
+            </div>
+            <div class="form-element">
+                <input class="vid-input" type="file" id="vid" name="vid" accept="video/*">
+            </div>
+            <div class="form-element">
+                <button type="submit">SUBMIT</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
